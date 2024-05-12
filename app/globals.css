@@ -24,6 +24,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: var(--font-syne), sans-serif;
+    font-family: var(--font-syne), sans-serif;
+    
 }
 
 @layer utilities {
@@ -31,3 +34,12 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* body {
+  font-family: var(--font-syne), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-syne), sans-serif;
+} */

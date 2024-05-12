@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -15,3 +16,26 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+// This is the root layout component for your Next.js app.
+// Learn more: https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#root-layout-required
+
+// import { Syne } from 'next/font/google'
+// import './styles.css'
+
+// const syne = Syne({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-syne',
+// })
+
+// export default function Layout({ children }) {
+//   return (
+//     <html lang="en">
+//       <body className={syne.variable}>
+//         {children}
+//       </body>
+//     </html>
+//   )
+// }
